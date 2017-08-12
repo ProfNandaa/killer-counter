@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     environment:
-      CC_TEST_REPORTER_ID: 1d92386039c561396d412a18d8d171f5b3441cada3c23e513e414836eab92701
+      CODECLIMATE_REPO_TOKEN: 1d92386039c561396d412a18d8d171f5b3441cada3c23e513e414836eab92701
     docker:
       - image: circleci/node:7.10
 
